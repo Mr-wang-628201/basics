@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ch">
+<head>
+    <meta charset="UTF-8">
+    <title>from表单</title>
+</head>
+<body>
+
+<form action="#" method="get">
+    <!-- label 指定输入项的文字描述信息 for 和 表单的id 绑定 -->
+    <label for="username">用户名</label><input id="username" name="username" placeholder="请输入用户名。。。"><br>
+    密码<input type="password" name="password" placeholder="请输入密码。。。"><br>
+    <!--input type="radio"  单选框 要name的属性一致才是同一个单选框-->
+    性别<input type="radio" name="gender" value="man">男
+    <input type="radio" name="gender" value="woman">女<br>
+    爱好<input type="checkbox" name="hobby" value="运动">运动
+    <input type="checkbox" name="hobby" value="学习" checked="checked" >学习 <!-- checked 默认选中 -->
+    <input type="checkbox" name="hobby" value="音乐">音乐<br>
+    <input type="submit" value="登录">
+
+</form>
+
+</body>
+</html>
