@@ -7,6 +7,7 @@ import java.util.Arrays;
  * Time : 9:56
  * Description :
  */
+//  提交修改的代码
 public class Arrays_Test {
     public static void main(String[] args) {
         int[] arr = {6,23,65,5,98,34,12,77,9,1,23};
